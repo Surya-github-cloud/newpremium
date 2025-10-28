@@ -29,7 +29,7 @@ const cardHoverVariant = {
 
 const featureVisuals: { [key: string]: React.ElementType } = {
     "Your Vision, Perfectly Built": () => {
-        const src = "/card videos/Your Vision, Perfectly Built.gif";
+        const src = "/Your Vision, Perfectly Built.gif";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="Your Vision, Perfectly Built" />;
         } else {
@@ -47,7 +47,7 @@ const featureVisuals: { [key: string]: React.ElementType } = {
         }
     },
     "Smart Functionality": () => {
-        const src = "/card videos/smart functionality.mp4";
+        const src = "/smart functionality.mp4";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="Smart Functionality" />;
         } else {
@@ -65,7 +65,7 @@ const featureVisuals: { [key: string]: React.ElementType } = {
         }
     },
     "Faster Delivery, Zero Compromise": () => {
-        const src = "/card videos/FASTER DELIVERY.mp4";
+        const src = "/FASTER DELIVERY.mp4";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="Faster Delivery, Zero Compromise" />;
         } else {
@@ -83,7 +83,7 @@ const featureVisuals: { [key: string]: React.ElementType } = {
         }
     },
     "Creative Meets Technical": () => {
-        const src = "/card videos/creativity meets technical.gif";
+        const src = "/creativity meets technical.gif";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="Creative Meets Technical" />;
         } else {
