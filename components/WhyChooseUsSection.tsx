@@ -30,7 +30,7 @@ const cardHoverVariant = {
 
 const benefitVisuals: { [key: string]: React.ElementType } = {
     'Design With Purpose, Not Just Pixels': () => {
-        const src = "/card videos/design with purpose.mp4";
+        const src = "/design with purpose.mp4";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="Design With Purpose, Not Just Pixels" />;
         } else {
@@ -48,7 +48,7 @@ const benefitVisuals: { [key: string]: React.ElementType } = {
         }
     },
     'Creating Experiences That Feel Alive': () => {
-        const src = "/card videos/creative experiences.mp4";
+        const src = "/creative experiences.mp4";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="Creating Experiences That Feel Alive" />;
         } else {
@@ -66,7 +66,7 @@ const benefitVisuals: { [key: string]: React.ElementType } = {
         }
     },
     'Technology That Talks to You': () => {
-        const src = "/card videos/Technology That Talks to You2.mp4";
+        const src = "/Technology That Talks to You2.mp4";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="Technology That Talks to You" />;
         } else {
@@ -84,7 +84,7 @@ const benefitVisuals: { [key: string]: React.ElementType } = {
         }
     },
     'Proactive Support & Maintenance': () => {
-        const src = "/card videos/Proactive Support & Maintenance.mp4";
+        const src = "/Proactive Support & Maintenance.mp4";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="Proactive Support & Maintenance" />;
         } else {

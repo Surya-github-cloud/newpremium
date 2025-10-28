@@ -31,7 +31,7 @@ const cardHoverVariant = {
 
 const serviceVisuals: { [key: string]: React.ElementType } = {
     "Website Development": () => {
-        const src = "/card videos/webdevelopment.mp4";
+        const src = "/webdevelopment.mp4";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="Website Development" />;
         } else {
@@ -49,7 +49,7 @@ const serviceVisuals: { [key: string]: React.ElementType } = {
         }
     },
     "AI Chatbots": () => {
-        const src = "/card videos/ai chatbots.gif";
+        const src = "/ai chatbots.gif";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="AI Chatbots" />;
         } else {
@@ -67,7 +67,7 @@ const serviceVisuals: { [key: string]: React.ElementType } = {
         }
     },
     "Fashion & Brand Websites": () => {
-        const src = "/card videos/Fashion & Brand Websites.mp4";
+        const src = "/Fashion & Brand Websites.mp4";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="Fashion & Brand Websites" />;
         } else {
@@ -85,7 +85,7 @@ const serviceVisuals: { [key: string]: React.ElementType } = {
         }
     },
     "UI / UX Design": () => {
-        const src = "/card videos/uiux.gif";
+        const src = "/uiux.gif";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="UI / UX Design" />;
         } else {
@@ -103,7 +103,7 @@ const serviceVisuals: { [key: string]: React.ElementType } = {
         }
     },
     "E-commerce Solutions": () => {
-        const src = "/card videos/e_commerce.mp4";
+        const src = "/e_commerce.mp4";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="E-commerce Solutions" />;
         } else {
