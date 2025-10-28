@@ -30,7 +30,7 @@ const cardHoverVariant = {
 
 const benefitVisuals: { [key: string]: React.ElementType } = {
     'Design With Purpose, Not Just Pixels': () => {
-        const src = "/design%20with%20purpose.mp4";
+        const src = "/design with purpose.mp4";
         if (src.endsWith('.gif')) {
             return <img src={src} className="w-full h-full object-cover rounded-2xl" alt="Design With Purpose, Not Just Pixels" />;
         } else {
