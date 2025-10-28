@@ -1,0 +1,2 @@
+- [x] Update Website Development description in ServicesSection.tsx to include "website maintenance"
+- [x] Update "Creating Experiences That Feel Alive" description in WhyChooseUsSection.tsx to include "user friendly, easy navigation and premium ui/ux"
